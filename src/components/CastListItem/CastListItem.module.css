@@ -1,0 +1,26 @@
+.castListItem {
+    width: 220px;
+    background-color: royalblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.castListItem:hover {
+    transform: scale(1.05);
+}
+
+.castName {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: azure;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.castImage {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 220px;
+}

@@ -1,6 +1,5 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
-import css from './Header.module.css';
+import css from './Header.module.css'
 
 export const Header = () => {
   return (
@@ -8,12 +7,12 @@ export const Header = () => {
       <nav className={css.nav}>
         <NavLink
           to="/"
-          className={({ isActive }) => (isActive ? css.linkActive : css.link)}
           end
+          className={({ isActive }) => (isActive ? css.linkActive : css.link)}
         >
           Home
         </NavLink>
-        <NavLink
+        <NavLink 
           to="/movies"
           className={({ isActive }) => (isActive ? css.linkActive : css.link)}
         >

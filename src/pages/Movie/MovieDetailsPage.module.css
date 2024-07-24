@@ -1,39 +1,119 @@
-/* MovieDetailsPage.module.css */
+.backArrow {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 40px;
+}
+
 .movieDetailsContainer {
+    padding: 10px 0 40px 60px;
     display: flex;
-    margin: 20px;
+    column-gap: 50px;
 }
 
 .image {
-    width: 300px;
-    height: auto;
-    margin-right: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    background-color: azure;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 .movieDetailsWrap {
+    border-radius: 20px;
+    background-color: azure;
+    padding: 50px;
     display: flex;
     flex-direction: column;
+    row-gap: 20px;
+    margin-right: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
-.goBackButton {
-    display: block;
-    margin: 0 auto;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
+.mainTitle {
+    color: navy;
+}
+
+.userScore {
+    font-size: 20px;
+    color: grey;
+}
+
+.percent {
+    background-color: gray;
+    padding: 5px 15px 5px 15px;
+    color: azure;
     border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.2s;
 }
 
-.goBackButton:hover {
-    background-color: #0056b3;
+.genreDetails {
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
 }
 
-.goBackLink {
-    display: block;
-    margin-top: 50px;
+.contentOverview {
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
+    text-indent: 100px;
+    line-height: 1.2;
+}
+
+
+.infoBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    column-gap: 80px;
+}
+
+.movieCast {
+    text-align: center;
+    border-radius: 100px;
     text-decoration: none;
+    width: 400px;
+    color: aliceblue;
+    font-size: 24px;
+    background-color: royalblue;
+    padding: 10px;
+}
+
+.movieCast:hover {
+    text-align: center;
+    border-radius: 100px;
+    text-decoration: none;
+    width: 400px;
+    color: aliceblue;
+    font-size: 24px;
+    background-color: rgb(15, 70, 238);
+    padding: 10px;
+}
+
+.movieReviews {
+    text-align: center;
+    border-radius: 100px;
+    text-decoration: none;
+    width: 400px;
+    color: aliceblue;
+    font-size: 24px;
+    background-color: royalblue;
+    padding: 10px;
+}
+
+.movieReviews:hover {
+    text-align: center;
+    border-radius: 100px;
+    text-decoration: none;
+    width: 400px;
+    color: aliceblue;
+    font-size: 24px;
+    background-color: rgb(15, 70, 238);
+    padding: 10px;
+}
+
+.movieInfo {
+    margin: 20px 0 50px 0px;
+    text-align: center;
+    font-size: 32px;
 }

@@ -1,0 +1,23 @@
+.castList {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.castLabel {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.notifyCast {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+}

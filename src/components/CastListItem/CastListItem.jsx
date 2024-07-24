@@ -1,19 +1,21 @@
-import PropTypes from 'prop-types';
+
+import PropTypes from 'prop-types'; 
+import css from './CastListItem.module.css';
 
 export const CastListItem = ({ profilePath, originalName, name }) => {
   return (
-    <li>
+    <li className={css.castListItem}>
       <img
-        width="200"
-        height="300"
+        className={css.castImage}
+        width="200px"
+        height="300px"
         src={
           profilePath
-            ? `https://image.tmdb.org/t/p/w300${profilePath}`
-            : `https://fakeimg.pl/600x400?text=No+Image+Available`
+            ? `https://image.tmdb.org/t/p/w300${profilePath}` : `https://fakeimg.pl/250x370/13e5f0/000?text=No+Image&font=lobster`
         }
         alt={originalName}
       />
-      <p>{name}</p>
+      <p className={css.castName}>{name}</p>
     </li>
   );
 };
