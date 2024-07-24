@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/701.c746fb05.chunk.js","mappings":"iKAMA,UAJoB,WAClB,OAAOA,EAAAA,EAAAA,KAAA,SACT,C","sources":["components/Reviews/ReviewsList.jsx"],"sourcesContent":["import React from 'react';\n\nconst ReviewsList = () => {\n  return <div></div>;\n};\n\nexport default ReviewsList;"],"names":["_jsx"],"sourceRoot":""}
