@@ -30,8 +30,8 @@ const MovieDetailsPage = () => {
 
   return (
     <>
-      <div className={css.backArrow}>
-      <Link to={backLinkHref.current} >
+      <div>
+      <Link to={backLinkHref.current} className={css.backArrow}>
         <TbArrowBackUpDouble />
         </Link>
       </div>
@@ -44,7 +44,7 @@ const MovieDetailsPage = () => {
         />
         <div className={css.movieDetailsWrap}>
           <h1 className={css.mainTitle}>{movieDetails.title}</h1>
-          <h4 className={css.userScore}>User score:   <span className={css.percent}>{Math.round(movieDetails.vote_average * 10)}%</span></h4>
+          <h4 className={css.userScore}>User score: <span className={css.percent}>{Math.round(movieDetails.vote_average * 10)}%</span></h4>
            <h2>Genres</h2>
            <p className={css.genreDetails}>
             {movieDetails.genres.map(genre => (
@@ -55,8 +55,6 @@ const MovieDetailsPage = () => {
           <p className={css.contentOverview}>{movieDetails.overview}</p>
         </div>
       </div>
-
-     
       
       <h2 className={css.movieInfo}>Additional information</h2>
       <div className={css.infoBtn}>
@@ -68,7 +66,6 @@ const MovieDetailsPage = () => {
         Reviews
       </Link>
       </div>
-  
 
       <Suspense fallback={<Loader />}>
         <Outlet />

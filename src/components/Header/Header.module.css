@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(6, 17, 51);
+    background-color: #0b0c10;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 
     >nav {
@@ -14,15 +14,21 @@
 .link {
     font-size: 24px;
     padding: 8px 16px;
-    color: #fff;
+    color: #45a29e;
     font-weight: 700;
     text-decoration: none;
 }
 
+.link:hover {
+    background-color: #1f2833;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
 .linkActive {
     composes: link;
-    color: whitesmoke;
-    background-color: rgb(13, 30, 82);
+    color: #66fcf1;
+    background-color: #1f2833;
     border-radius: 5px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }

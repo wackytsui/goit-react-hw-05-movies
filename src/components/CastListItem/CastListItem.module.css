@@ -1,6 +1,6 @@
 .castListItem {
     width: 220px;
-    background-color: royalblue;
+    background-color: #c5c6c7;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     cursor: pointer;
@@ -14,7 +14,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
-    color: azure;
+    color: #0b0c10;
     font-size: 16px;
     font-weight: 500;
 }

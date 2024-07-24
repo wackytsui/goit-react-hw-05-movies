@@ -2,6 +2,7 @@
     margin-top: 20px;
     margin-left: 60px;
     font-size: 40px;
+    color: #66fcf1;
 }
 
 .movieDetailsContainer {
@@ -20,7 +21,7 @@
 
 .movieDetailsWrap {
     border-radius: 20px;
-    background-color: azure;
+    background-color: #c5c6c7;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -30,12 +31,12 @@
 }
 
 .mainTitle {
-    color: navy;
+    color: #0b0c10;
 }
 
 .userScore {
     font-size: 20px;
-    color: grey;
+    color: #1f2833;
 }
 
 .percent {
@@ -46,13 +47,13 @@
 }
 
 .genreDetails {
-    color: grey;
+    color: #1f2833;
     font-size: 16px;
     font-weight: 600;
 }
 
 .contentOverview {
-    color: grey;
+    color: #1f2833;
     font-size: 16px;
     font-weight: 600;
     text-indent: 100px;
@@ -73,9 +74,9 @@
     border-radius: 100px;
     text-decoration: none;
     width: 400px;
-    color: aliceblue;
+    color: #1f2833;
     font-size: 24px;
-    background-color: royalblue;
+    background-color: #45a29e;
     padding: 10px;
 }
 
@@ -84,9 +85,9 @@
     border-radius: 100px;
     text-decoration: none;
     width: 400px;
-    color: aliceblue;
+    color: #0b0c10;
     font-size: 24px;
-    background-color: rgb(15, 70, 238);
+    background-color: #66fcf1;
     padding: 10px;
 }
 
@@ -95,9 +96,9 @@
     border-radius: 100px;
     text-decoration: none;
     width: 400px;
-    color: aliceblue;
+    color: #1f2833;
     font-size: 24px;
-    background-color: royalblue;
+    background-color: #45a29e;
     padding: 10px;
 }
 
@@ -106,9 +107,9 @@
     border-radius: 100px;
     text-decoration: none;
     width: 400px;
-    color: aliceblue;
+    color: #0b0c10;
     font-size: 24px;
-    background-color: rgb(15, 70, 238);
+    background-color: #66fcf1;
     padding: 10px;
 }
 
@@ -116,4 +117,5 @@
     margin: 20px 0 50px 0px;
     text-align: center;
     font-size: 32px;
+    color: #66fcf1;
 }
